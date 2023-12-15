@@ -20,10 +20,12 @@ Once the project is set up, you can use the following API endpoints.
 ### GET User By Queries
 
 - **Endpoint:** `http://localhost:5000/api/user/getUser` (Note: Page limit is set to 10)
+- **Deployed Endpoint:**  `https://paiteq.vercel.app/api/user/getUser`
 
 #### After adding Queries
 
 - **Endpoint:** `http://localhost:5000/api/user/getUser?age=desc&page=2`
+- **Deployed Endpoint:**  `https://paiteq.vercel.app/api/user/getUser?age=desc`
 
 **Query Parameters:**
 
@@ -34,6 +36,7 @@ Once the project is set up, you can use the following API endpoints.
 ### POST Create User
 
 - **Endpoint:** `http://localhost:5000/api/user/createUser`
+- **Deployed Endpoint:**  `https://paiteq.vercel.app/api/user/createUser`
 
 **Body (JSON):**
 
